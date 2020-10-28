@@ -16,7 +16,7 @@ Renaissance.
 
 Transitional Serif
 
-    Make old-style fonts less hand-drawn and chop the serifs off at right
+Make old-style fonts less hand-drawn and chop the serifs off at right
 angles, and you get transitional fonts. This was the predominant font
 during the founding of the United States and has strong connotations
 with neoclassical architecture and art.
