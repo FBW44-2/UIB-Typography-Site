@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto-Bold-webfont.woff') format('woff');
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
 }
 
@@ -37,11 +37,20 @@ body {
   color: #5d6063;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3 {
   line-height: 1.3em;
-  font-weight: 700;
+  font-weight: bold;
+  font-style: normal;
 }
 
 header {
@@ -50,6 +59,17 @@ header {
 
 .hero {
   background-color: #5d6063;
+  color: #fff;
+  padding: 4em;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+nav {
+  background-color: #54575a;
 }
 
 nav li {
@@ -58,3 +78,50 @@ nav li {
   padding-bottom: 1em;
   margin-left: 3rem;
 }
+
+.selected {
+  color: #54a5c4;
+}
+
+a:link,
+a:visited {
+  color: #888f95;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #54a5c4;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: overline;
+}
+
+.section {
+  max-width: 54rem;
+  margin: 4em auto;
+  padding: 2.5em 3em;
+}
+
+.section--gray {
+  border: 1px solid #d8cece;
+}
+
+.section h2 {
+  font-size: 3rem;
+  margin-bottom: 0.7em;
+}
+
+.section p {
+  margin-bottom: 1em;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+/* 
+em,
+strong {
+  font-synthesis: none;
+} */
